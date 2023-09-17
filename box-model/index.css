@@ -1,0 +1,70 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/** Outter box */
+.big-box{
+    background-color: #fffbed;
+    border: 9px solid rgb(120, 71, 71);
+    margin: 8px;
+}
+
+.big-box h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+/** Top navBar box */
+.box-nav{
+    background-color: #c06f0c;
+    border: 10px solid green;
+    padding: 20px;
+    margin: 12px;
+    margin: 8px;
+}
+
+.box-nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.box-nav ul li{
+    display: inline;
+    margin-right: 20px;  /* Add some spacing to the links in-between */
+}
+
+.box-nav ul li a{
+    text-decoration: none;
+    color: #2a1700;
+    font-weight: bold;
+}
+
+.box-nav ul li a:hover{
+    color: #bcbccb;
+    
+}
+
+/** Sidebar web contents .... */
+.box-sideBar{
+    border: #c06f0c solid 7px;
+    background-color: #fcdabf; 
+    margin: 8px;
+}
+
+
+/** Main web content here!...*/
+.box-main{
+    border: #090968 solid 8px;
+    margin: 8px;
+}
+
+/** Footer section here! */
+.box-footer{
+    border: 12px solid red;
+    padding: 4px;
+    margin: 8px;
+}
