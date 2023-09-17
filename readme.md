@@ -1,2 +1,1 @@
-## The Odin Project
-    Fullstack Development
+## Odin Recipe
