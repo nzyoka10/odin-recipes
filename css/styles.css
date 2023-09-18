@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+}
+
+.container{
+    background-color: rgb(234, 212, 183);
+    border: solid 1px red;
+    padding: 12px;
+    margin: 6px;
+}
+
+.navBar{
+    margin: 2px;
+    
+}
