@@ -12,6 +12,8 @@
 
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    overflow: hidden;
 }
 
 /* Navbar styles */
@@ -35,6 +37,11 @@ body{
     text-decoration: none;
 }
 
+.logo a:hover{
+    color: bisque;
+    text-transform: uppercase;
+}
+
 .nav-list li{
     list-style: none;
     display: inline-block;
@@ -45,6 +52,14 @@ body{
     font-size: 18px;
     font-weight: bold;
     margin-right: 25px;
+}
+
+.nav-list li a:hover{
+    border: 2px solid wheat;
+    font-size: 14px;
+    padding: 4px;
+    border-radius: 6px;
+    transition: all .5s ease-in-out;
 }
 
 button{
@@ -59,4 +74,27 @@ button a{
     color: white;
     font-weight: bold;
     font-size: 15px;
+}
+
+/* Hero section styling */
+section.container{
+    background: url(./recipes/img/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    z-index: -1;
+    filter: blur(1px);
+}
+.content {
+    padding: 10em;
+    color: white;
+    text-align: center;
+}
+
+.content h2 {
+    /* margin-top: 200px; */
+    font-size: 80px;
+    font-weight: 500;
 }
